@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/',function (){
-    return debug_backtrace();
+    return '55555';
 });
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
